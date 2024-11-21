@@ -1,1 +1,74 @@
+/* Resetando margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background-color: #F5F5F5; /* Fundo Cinza Claro */
+    color: #333333; /* Texto principal em preto */
+    line-height: 1.6;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Seção de Curiosidades */
+.curiosidades {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.curiosidades h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333333; /* Título em preto */
+    margin-bottom: 20px;
+}
+
+.curiosidades p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.curiosidades ul {
+    list-style-type: none;
+}
+
+.curiosidades ul li {
+    margin-bottom: 10px;
+}
+
+/* Seção de Fotos */
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.fotos img {
+    width: 23%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50; /* Azul Escuro */
+    color: #F1D0D6; /* Detalhes em Sakura */
+}
+
+/* Adicionando uma borda no rodapé para contraste */
+footer p {
+    margin: 0;
+}
 
