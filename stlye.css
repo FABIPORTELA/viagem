@@ -11,6 +11,7 @@ body {
     background-color: #F5F5F5; /* Fundo Cinza Claro */
     color: #333333; /* Texto principal em preto */
     line-height: 1.6;
+    text-align: center;
 }
 
 /* Banner */
@@ -27,7 +28,7 @@ body {
 }
 
 .curiosidades h1 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family:'Zen Kurenaido', sans-serif;
     color: #333333; /* Título em preto */
     margin-bottom: 20px;
 }
