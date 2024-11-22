@@ -15,6 +15,11 @@ body {
 }
 
 /* Banner */
+.banner {
+    width: 100%;
+    overflow: hidden; /* Garante que não haja overflow */
+}
+
 .banner img {
     width: 100%;
     height: auto;
@@ -28,7 +33,7 @@ body {
 }
 
 .curiosidades h1 {
-    font-family:'Zen Kurenaido', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     color: #333333; /* Título em preto */
     margin-bottom: 20px;
 }
@@ -49,7 +54,8 @@ body {
 /* Seção de Fotos */
 .fotos {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que as imagens se ajustem em várias linhas */
+    justify-content: center; /* Centraliza as imagens */
     gap: 10px;
     padding: 20px;
 }
@@ -72,4 +78,3 @@ footer {
 footer p {
     margin: 0;
 }
-
