@@ -22,8 +22,8 @@ body {
 
 .banner img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaço abaixo da imagem */
 }
 
 /* Seção de Curiosidades */
@@ -61,7 +61,7 @@ body {
 }
 
 .fotos img {
-    width: 23%;
+    width: 23%; /* Ajuste a largura das imagens */
     height: auto;
     border-radius: 8px;
 }
